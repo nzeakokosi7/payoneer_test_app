@@ -12,7 +12,7 @@ I also adapted the UI convention of <br/> one Activity (MainActivity), multiple 
 
 I used retrofit for networking, Gson for object mapping while using OkhttpClient for cache  <br/>  control. I wrote a custom Retrofit Callback class to enable me handle errors such as  <br/>  SocketTimeoutException, UnknownHostException, ConnectException, JSONException,  <br/>  IOException and other standard network errors properly.
 
-For better user experience, a third party loader libary <br/> ('com.elyeproj.libraries:loaderviewlibrary:2.0.0') to serve as a placeholder while making network calls.
+For better user experience, a third party loader libary <br/> ('com.elyeproj.libraries:loaderviewlibrary:2.0.0') was used to serve as a placeholder while making network calls.
 
 ### Details of the project structure explained below
 
