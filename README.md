@@ -4,7 +4,7 @@ A Native Android (JAVA) App DEMO challenge for Payoneer.
 
 |  A brief preview          |  
 :-------------------------:|
-![](https://github.com/nzeakokosi7/fx_change/blob/master/assets/gifs/walk_through.gif)
+![](https://github.com/nzeakokosi7/payoneer_test_app/tree/master/app/src/main/res/assets/demo.gif)
 
 ## Getting Started
 This app was designed using the MVVM architecture.
