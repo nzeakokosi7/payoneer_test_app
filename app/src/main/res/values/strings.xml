@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PayoneerTestApplicationJava</string>
+    <string name="something_wrong">Something went wrong, please try again</string>
+    <string name="connection_timeout">The connection, timed out</string>
+    <string name="nointernet">No internet connection, using cache</string>
+    <string name="server_not_responding">No response from server</string>
+    <string name="parse_error">An error occurred while trying to process your data</string>
+</resources>

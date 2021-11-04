@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.elyeproj.loaderviewlibrary.LoaderImageView
+        android:id="@+id/network_logo"
+        android:layout_width="100dp"
+        android:layout_margin="5dp"
+        android:layout_height="160dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:layout_collapseMode="parallax" />
+
+
+    <com.elyeproj.loaderviewlibrary.LoaderTextView
+        android:id="@+id/network_name"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#24252F"
+        android:textFontWeight="600"
+        android:textSize="18sp"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.payoneertestapplicationjava.ui.main.MainFragment"
+        android:label="Main Screen"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_paymentMethodFragment"
+            app:destination="@id/paymentMethodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentMethodFragment"
+        android:name="com.example.payoneertestapplicationjava.ui.paymentMethods.PaymentMethodFragment"
+        android:label="Payment Methods" />
+</navigation>
